@@ -13,37 +13,37 @@ tags: [OCI, OCI_Kafka_Streaming, SIEM, Audit]
 
 ### 1. Under “Identity and Security” select “Identity”
 
-![Desktop View](/assets/img/posts/2023-06-03-OCI-Create_User_To_Access_Streaming_Services/1.png){: width="700"}
+![Desktop View](/assets/img/OCI/1.png){: width="700"}
 
 ### 2. Click on domain. 
 
-![Img2](/assets/img/posts/2023-06-03-OCI-Create_User_To_Access_Streaming_Services/2.png){: width="700"}
+![Img2](/assets/img/OCI/2.png){: width="700"}
 
 ### 3. Create a New User.
 
-![Img3](/assets/img/posts/2023-06-03-OCI-Create_User_To_Access_Streaming_Services/3.png){: width="700"}
+![Img3](/assets/img/OCI/3.png){: width="700"}
 
-![Img4](/assets/img/posts/2023-06-03-OCI-Create_User_To_Access_Streaming_Services/4.png){: width="700"}
+![Img4](/assets/img/OCI/4.png){: width="700"}
  
 ### 4. Create a Auth Token for this user.
 
-![Img5](/assets/img/posts/2023-06-03-OCI-Create_User_To_Access_Streaming_Services/5.png){: width="700"}
+![Img5](/assets/img/OCI/5.png){: width="700"}
  
 ### 5. Copy the Generated auth token.
 
 ### 6. Create a Group and make the user part of the group.
 
-![Img6](/assets/img/posts/2023-06-03-OCI-Create_User_To_Access_Streaming_Services/6.png){: width="700"}
+![Img6](/assets/img/OCI/6.png){: width="700"}
 
-![Img7](/assets/img/posts/2023-06-03-OCI-Create_User_To_Access_Streaming_Services/7.png){: width="700"}
+![Img7](/assets/img/OCI/7.png){: width="700"}
  
 ### 7. Create a Policy.
 
-![Img8](/assets/img/posts/2023-06-03-OCI-Create_User_To_Access_Streaming_Services/8.png){: width="700"}
+![Img8](/assets/img/OCI/8.png){: width="700"}
  
 ### 8. While creating the policy , select “policy usecases” as “Streaming” and select highlighted “common policy template” as per below screenshot.
 
-![Img9](/assets/img/posts/2023-06-03-OCI-Create_User_To_Access_Streaming_Services/9.png){: width="700"}
+![Img9](/assets/img/OCI/9.png){: width="700"}
 
 ### 9. Assign “Groups” we created earlier to this policy and select the “Location”. 
  
